@@ -1,0 +1,93 @@
+
+
+footer .box-container{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+    background: rgba(217, 217, 217, 0.5);
+}
+
+footer .box-container .box{
+    flex:1 1 25rem;
+    padding: 82px 33px;
+}
+
+footer .box-container .box h3{
+    color: #000000;
+    font-family: 'Roboto',sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 42px;
+    padding: 1rem 0
+}
+
+footer .box-container .box img{
+    padding: 0px 0px 30px 0px;
+    margin-top: -2px;
+}
+
+footer .box-container .box p{
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 19px;
+    margin-bottom: 17px;
+    color: #474747;
+}
+
+footer .box-container .box a{
+    display: block;
+    color: #000000;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 17px;
+    line-height: 23px;
+    padding: 1rem 0;
+}
+
+footer .box-container .box a:hover{
+    color: #4A3B9F;
+}
+
+footer .box-container .box .footer-logo {
+    width: 135px;
+    margin-top: 4px;
+}
+
+footer .credit {
+    background: #4A3B9F;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.copyright p, .terms p, .privacy p {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 23px;
+    color: #FFFFFF;
+
+}
+
+.copyright p{
+ margin-left: 58px;
+}
+ 
+
+.privacy p {
+    margin-left: 620px;
+}
+
+.terms p {
+    margin-left: 41px;
+}
+
+.icons {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}

@@ -1,0 +1,106 @@
+
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: #fff;
+    padding: 22px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 1000;
+}
+
+header #toggler{
+    display: none;
+}
+
+header .fa-bars {
+    font-size: 3rem;
+    color:#4A3B9F;
+    border-radius: .5rem;
+    padding: .5rem 1.5rem;
+    cursor: pointer;
+    display: none;
+}
+
+.logo img {
+     position: absolute;
+    width: 135px;
+    height: 59px;
+    left: 89px;
+    top: 15px;
+}
+
+nav{
+    margin-left: 320px;
+}
+
+
+/* header .navbar {
+   // clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
+} */
+
+
+header #toggler:checked ~.navbar {
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+}
+
+header .navbar a {
+    font-size: 15px;
+    padding: 8px;
+    color: #000000;
+    letter-spacing: 0.01em;
+    line-height: 30px;
+    font-weight: 700;
+    text-transform: none;
+    list-style-type: none;
+    display: inline-block;
+}
+
+
+.navbar a:hover {
+    background-color: #4A3B9F;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 2px 5px;
+    border-radius: 1px;
+    font-size: 16px;
+    box-shadow: 3px 3px #3F3289;
+    transition: background-color .4s ease-in-out;
+}
+.navbar a.activ {
+    background-color: #4A3B9F;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 2px 14px;
+    border-radius: 1px;
+    font-size: 16px;
+    box-shadow: 3px 3px #3F3289;
+    transition: background-color .4s ease-in-out;
+
+}
+
+.button {
+    background-color: #4A3B9F;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 10px 24px;
+    border-radius: 1px;
+    font-size: 16px;
+    box-shadow: 3px 3px #3F3289;
+    transition: background-color .4s ease-in-out;
+}
+
+
+.button:hover {
+
+    background-color: #000000;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+
+}

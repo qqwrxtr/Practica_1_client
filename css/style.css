@@ -1,0 +1,802 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", "Oswald", sans-serif;
+    outline: none;
+    border: none;
+    text-decoration: none;
+    transition: .2s linear;
+}
+
+html {
+    font-size: 62.5%;
+    scroll-behavior: smooth;
+    scroll-padding-top: 6rem;
+    overflow-y: scroll;
+}
+
+section {
+    padding: 2rem 9%;
+}
+section.appointment{
+    padding: 0 0;
+}
+
+section.header-overlap {
+    margin-top: 120px;
+}
+.home {
+    display: flex;
+    align-items: center;
+    min-height: 800px;
+    width: 100%;
+    background-image: url(../images/curtains.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.home .content {
+    margin-top: 130px;
+    margin-left: 55px;
+    max-width: 50rem;
+    border-radius: 5px;
+    background-color: #4A3B9F;
+    box-shadow: 10px 10px #3F3289;
+    padding: 73px 56px;
+}
+
+.glide__slides {
+    display: block
+}
+.glide__slide {
+    display: inline;
+}
+
+.home .content h3 {
+    color: #ffffff;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 37px;
+}
+
+.home .content p {
+    color: #fff;
+    width: 304px;
+    height: 29px;
+    left: 164px;
+    top: 450px;
+
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    text-transform: initial;
+    line-height: 50px;
+}
+
+
+.button2 {
+
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    border: 1spx transparent;
+    font-weight: bold;
+    padding: 10px 15px;
+    border-radius: 1px;
+    transition: transform .4s;
+    font-size: 14px;
+    line-height: 100px;
+    cursor: pointer;
+    box-shadow: 4px 4px #3F3289;
+}
+
+.button2:hover {
+    background-color: #000000;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    border: 1px transparent;
+}
+
+.welcome {
+    width: 100%;
+    padding: 100px 0px;
+    background: linear-gradient(114.45deg, rgba(74, 59, 159, 0.5) 0.32%, rgba(217, 217, 217, 0) 100%);
+    display: flex;
+    flex-direction: row;
+}
+
+
+.welcome-text {
+    flex:1;
+    margin-top: 38px;
+    margin-right: 102px;
+    padding-left: 30px;
+}
+
+.welcome-info {
+    flex: 1;
+    margin: 0 auto;
+    align-items: flex-end;
+    justify-self: flex-end;
+    position: relative;
+    right: 89px;
+}
+
+.info {
+
+    right: 208px;
+    background: #4A3B9F;
+    border-radius: 5px;
+    z-index: 2;
+    width: 277px;
+    position: absolute;
+    top: 26px;
+    height: 249px;
+}
+
+
+.info h3 {
+  
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 34px;
+    text-align: center;
+    color: #FFFFFF;
+    padding: 56px 28px;
+}
+.welcome .welcome-images{
+    width: 469px;
+    height: 492px;
+    background-image: url('../images/images welcome.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;   
+    margin-left: auto;
+    border-radius: 5px;
+   
+}
+
+
+.welcome-text .title {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 72px;
+    color: #000000;
+    
+}
+
+ .symbol {
+    width: 56px;
+}
+
+.welcome-text p {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 17px;
+    line-height: 27px;
+    color: #000000;
+}
+
+.welcome-text .button {
+    position: absolute;
+    width: 132px;
+    height: 38px;
+    left: 641px;
+    margin-top: 25px;
+}
+
+.comercial {
+    float: left;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    display: flex;
+	transition: .3s;
+    width: 100%;
+
+}
+
+.images-comercial {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    position: relative;
+}
+
+.images-comercial h3 {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 40px;
+    text-align: center;
+    color: #FFFFFF;
+    padding: 104px 0px 0px 0px;
+}
+
+.box1, .box2, .box3 {
+    flex:1;
+    height: 300px;
+    background-size: cover;
+    background-position: center;
+}    
+
+.box1 {
+    background-image:url('../images/img-commercial.png') ;
+}
+
+.box2 {
+    background-image:url('../images/img-residential.png') ;
+}
+
+.box3{
+    background-image:url('../images/img-ultrasonic.png') ;
+}
+
+.box-overlay {
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 100%;
+    height: 100%;
+}
+
+.box-overlay:hover {
+    background-color: rgba(74, 59, 159, 0.5);
+    width: 100%;
+    height: 100%;
+}
+
+.services {
+    width: 100%;
+    padding: 100px 0px;
+    background: linear-gradient(114.45deg, rgba(74, 59, 159, 0.5) 0.32%, rgba(217, 217, 217, 0) 100%);
+    display: flex;
+    flex-direction: column;
+}
+
+.services .title {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 35px;
+    line-height: 72px;
+    color: #000000;
+    text-align: center;
+}
+    
+
+
+
+.services .box-container{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    width: 870px;
+    flex-direction: row;
+    margin: 30px auto;
+}
+
+.services .box-container .box{
+    box-shadow: 0 0.5rem 1.5rem rgb(0, 0, 0, .1);
+    border-radius: 10px;
+    position: relative;
+    width: 270px;
+    background: #FFFFFF;
+}
+
+.services .box-container .box .content h3:hover{
+    color: #4A3B9F;
+
+}
+
+.services .box-container .box img:hover {
+    filter: brightness(10%);
+}
+.services .box-container .box img {
+    position: relative;
+    text-align: center;
+    padding-top: 2rem;
+    margin-top: -20px;
+    width: 270px;
+    height: 192px;
+
+
+}
+
+.services .box-container .content {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    line-height: 72px;
+    color: #000000;
+    text-align: center;
+}
+
+.services .box-container .content h3 {
+    font-weight: 700;
+    font-size: 27px;
+    line-height: 77px;
+}
+
+
+.services .box-container .content p {
+    font-weight: 300;
+    font-size: 13px;
+    line-height: 18px;
+}
+
+.services .symbol {
+    margin: auto;
+}
+
+.subscribe {
+    width: 100%;
+    padding: 100px 0px;
+    background: rgba(91, 78, 165, 0.2);
+    display: flex;
+    flex-direction: row;
+}
+
+
+.subscribe-text {
+    flex:1;
+    margin-top: 38px;
+    margin-right: 102px;
+    padding-left: 30px;
+}
+
+.subscribe-info {
+    flex: 1;
+    margin: 0 auto;
+    align-items: flex-end;
+    justify-self: flex-end;
+    position: relative;
+    right: -120px;
+}
+
+.subscribe-text .title {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;;
+    color: #000000;
+    
+}
+
+.subscribe-text p {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 13px;
+    line-height: 27px;
+    color: #474747;
+    margin-left: 3px;
+}
+
+.subscribe-text input {
+    border: 1px solid #797979;
+    border-radius: 10px;
+    padding: 10px 134px 10px 10px;
+    background-color: transparent;
+    font-size: 15px;
+    width: 445px;
+    height: 49px;
+    margin-top: 37px;
+}
+
+.subscribe-text .button{
+    border-radius: 5px;
+    width: 124px;
+    height: 37px;
+    position: absolute;
+    margin-left: -132px;
+    margin-top: 41px;
+}
+
+
+
+.hero {
+    display: flex;
+    align-items: center;
+    min-height: 304px;
+    width: 100%;
+    background-image: url(../images/hero-img.png);
+    background-size: cover;
+    background-position: center;
+    font-family: 'Roboto',sans-serif;
+    font-style: normal;    
+    color: #ffffff;
+}
+
+.hero h3{
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 37px;
+    margin-top: 111px;
+    margin-left: 952px;
+}
+
+.hero p{
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 23px;
+    margin-top: 2px;
+    margin-left: 961px;
+
+}
+
+.about-us {
+    width: 100%;
+    padding: 100px 0px;
+    background: linear-gradient(114.45deg, rgba(74, 59, 159, 0.5) 0.32%, rgba(217, 217, 217, 0) 100%);
+    display: flex;
+    flex-direction: row;
+}
+
+.about-us .welcome-info {
+    flex: 1;
+    margin: 0 auto;
+    align-items: flex-end;
+    justify-self: flex-end;
+    position: relative;
+    right: 89px;
+}
+
+.about-us .welcome-text .title{
+    font-size: 27px;
+}
+
+.about-us .welcome-text p{
+    font-size: 20px;
+    font-weight: 300;
+    font-size: 17px;
+    line-height: 29px;
+}
+.about-us .welcome-info .welcome-images  img{
+    width: 489px;
+    height: 403px;
+    margin-top: 42px;
+    margin-left: 126px;
+}
+
+.about-us .welcome-text .button {
+    margin-top: 39px;
+}
+
+
+.blog {
+    width: 100%;
+    padding: 100px 0px;
+    display: flex;
+    flex-direction: column;
+}
+
+.blog .title {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 35px;
+    line-height: 72px;
+    color: #000000;
+    text-align: center;
+}
+    
+
+.blog .box-container{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    width: 870px;
+    flex-direction: row;
+    margin: 30px auto;
+}
+
+.blog .box-container .box{
+    border-radius: 10px;
+    position: relative;
+    width: 270px;
+    background: #FFFFFF;
+    border-bottom: 1px solid #CCCCCC;
+}
+
+.blog .box-container .box .data{
+    background: #969696;
+    width: 139px;
+    height: 32px;
+}
+
+.blog .box-container .box .data p{
+    font-family: 'Roboto',sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 23px;
+    color: #FFFFFF;
+    padding: 6px 0px 0px 10px;
+}
+
+.blog .box-container .box:hover{
+    box-shadow: 0px 20px 40px 20px rgba(0, 0, 0, 0.25);
+}
+
+.blog .box-container .box .content h3:hover{
+    color: #4A3B9F;
+
+}
+
+.blog .box-container .box img:hover {
+    filter: brightness(10%);
+}
+.blog .box-container .box img {
+    position: relative;
+    text-align: center;
+    padding-top: 2rem;
+    margin-top: -20px;
+    width: 270px;
+    height: 192px;
+
+
+}
+
+.blog .box-container .content {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    line-height: 76px;
+    color: #000000;
+    margin-left: 20px;
+}
+
+.blog .box-container .content h3 {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 35px;
+    margin-top: 20px;
+}
+
+
+.blog .box-container .content p {
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 18px;
+    margin-top: 14px;
+}
+
+.blog .symbol {
+    margin: auto;
+}
+
+
+.features {
+    width: 100%;
+    background: linear-gradient(114.45deg, rgba(74, 59, 159, 0.5) 0.32%, rgba(217, 217, 217, 0) 100%);
+    display: flex;
+    flex-direction: column;
+}
+
+
+.features .title {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 35px;
+    line-height: 72px;
+    color: #000000;
+    text-align: center;
+    margin-top: 40px;
+}
+    
+
+.features h6{
+    font-family: 'Roboto',sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 25px;
+    text-align: center;
+    color: #000000;
+    padding: 22px 140px 10px 142px;
+}
+
+.features .box-container{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    width: 100%;
+    flex-direction: row;
+    margin: 30px auto;
+}
+
+.features .box-container .box{
+    border-radius: 10px;
+    position: relative;
+    width: 253px;
+    background: #FFFFFF;
+    height: 440px;
+    box-shadow: -20px 20px 40px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+}
+
+.features .box-container .box .images  {
+    position: relative;
+    padding-top: 2rem;
+    width: 253px;
+    height: 184px;
+    background: #4A3B9F;
+    border-radius: 10px 10px 0px 0px;
+
+}
+
+.features .box-container .box .images img  {
+    padding: 34px 16px 0px 74px
+
+}
+
+.features .box-container .content {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    line-height: 76px;
+    text-align: center;
+    color: #000000;
+    padding: 0 19px;
+}
+
+.features .box-container .content h3 {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 35px;
+    margin-top: 20px;
+    text-align: center;
+}
+
+
+.features .box-container .content p {
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 18px;
+    margin-top: 14px;
+    text-align: center;
+}
+
+.features .box-container .content .button {
+    margin: auto;
+}
+
+.features .symbol {
+    margin: auto;
+}
+
+
+.box-container-service{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    width: 1172px;
+    flex-direction: row;
+    margin: 30px auto;
+}
+
+.box-container-service .box{
+    box-shadow: 0 0.5rem 1.5rem rgb(0, 0, 0, .1);
+    border-radius: 10px;
+    position: relative;
+    width: 270px;
+    background: #FFFFFF;
+}
+
+.box-container-service .box .content h3:hover{
+    color: #4A3B9F;
+
+}
+
+.box-container-service .box img:hover {
+    filter: brightness(10%);
+}
+
+.box-container-service .box img {
+    position: relative;
+    text-align: center;
+    padding-top: 2rem;
+    margin-top: -20px;
+    width: 270px;
+    height: 192px;
+
+
+}
+
+.box-container-service .content {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    line-height: 72px;
+    color: #000000;
+    text-align: center;
+}
+
+.box-container-service .content h3 {
+    font-weight: 700;
+    font-size: 27px;
+    line-height: 77px;
+}
+
+
+.box-container-service .content p {
+    font-weight: 300;
+    font-size: 13px;
+    line-height: 18px;
+}
+
+.appointment {
+    display: flex;
+    flex-direction: column;
+}
+
+.content-appointment {
+    flex: 1;
+    margin: 0 auto;
+    align-items: flex-end;
+    justify-self: flex-end;
+    position: relative;
+    background-image: url(../images/appointment.png);
+    text-align: center;
+    width: 100%;
+}
+.appointment .title{
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 35px;
+    line-height: 32px;
+    color: #000000;
+
+}
+
+.appointment .symbol {
+    margin: auto;
+}
+
+
+.appointment .content-appointment p {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 29px;
+    color: #FFFFFF;
+    margin-top: 267px;
+
+}
+
+.appointment .content-appointment h4 {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 38px;
+    line-height: 47px;
+    color: #FFFFFF;
+    margin-left: 5px;
+}
+
+
+.appointment .button {
+    border-radius: 5px;
+    width: 442px;
+    height: 46px;
+    position: absolute;
+    padding: 14px 32px 17px 181px;
+}
+
+.appointment .button:hover {
+    background-color: #000000;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    border: 1px transparent;
+}
+
+
+
